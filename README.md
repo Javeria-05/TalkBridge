@@ -1,16 +1,55 @@
-# talk_bridge
+# 🌍 TalkBridge – Learn, Translate & Connect ✨
 
-A new Flutter project.
+**TalkBridge** is my **first Flutter project** 🚀.  
+It’s a simple yet powerful **language learning and translation app**, built with **Flutter + Firebase**.  
+The goal? To bridge communication gaps and make learning fun.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
+- 🔐 **Login with Remember Me** (using Shared Preferences)  
+- 👁️ Password field with **Show/Hide toggle**  
+- 🏠 **Beautiful Home Page** with background & live language list from Firebase  
+- 🌍 **Multi-Language Support** (Firestore as backend)  
+- 🈯 **Auto Translation Page** for quick language help  
+- 🎨 **Dark Modern UI** (Black theme, White text, Grey accents)  
+- 🚪 **Logout option** to manage sessions  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
+- **Flutter (Dart)** – App development  
+- **Firebase Core & Firestore** – Backend & database  
+- **Shared Preferences** – Local session storage  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📸 Screenshots (Optional)
+| Login Page | Home Page | Translator Page |
+|------------|-----------|-----------------|
+| ![Login](assets/screenshots/login.png) | ![Home](assets/screenshots/home.png) | ![Translator](assets/screenshots/translate.png) |
+
+---
+
+## 🚀 Getting Started
+Clone this repo and run the app:
+
+```bash
+git clone https://github.com/Javeria-05/TalkBridge.git
+cd TalkBridge
+flutter pub get
+flutter run
+
+🎥 Demo Video
+🔗 Watch the demo on LinkedIn
+
+💡 Why I Built This
+This project represents my first hands-on experience with Flutter and Firebase.
+I wanted to explore:
+How to integrate Firebase in Flutter apps
+How Shared Preferences can save user sessions
+Building a real app flow from Login → Home → Translator
+
+👩‍💻 Author
+
+Built by Javeria
